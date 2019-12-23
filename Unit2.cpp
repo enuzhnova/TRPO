@@ -19,7 +19,7 @@ void __fastcall TForm2::Button1Click(TObject *Sender)
 	 Form2->Canvas->Brush->Color = clPurple;
 	 Form2->Canvas->Pie(0,0, 20,20, 20,0, 0,0);
 
-	 Form2->Canvas->Brush->Color = clNavy;
+	 Form2->Canvas->Brush->Color = clPurple;
 	 Form2->Canvas->Ellipse(0, 0, 10, 20);
 
 }
